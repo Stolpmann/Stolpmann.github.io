@@ -1,9 +1,57 @@
-<!DOCTYPE html>
-<html>
-<body>
+{% extends "Base.html" %}
+{% block title %} Homepage {% endblock %}
+{% block content %}
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <section class="intro" id="intro">
 
-</body>
-</html>
+        <div class="container vertical-center" id="container1">
+
+            <h1>
+                <span>I'</span>
+                <span>M</span>
+            </h1>
+
+            <h1>
+                <span>E</span>
+                <span>V</span>
+                <span>A</span>
+                <span>N</span>
+            </h1>
+
+            <h1>
+                <span>W</span>
+                <span>E</span>
+                <span>B</span>
+            </h1>
+
+            <h1>
+                <span>D</span>
+                <span>E</span>
+                <span>V</span>
+                <span>E</span>
+                <span>L</span>
+                <span>O</span>
+                <span>P</span>
+                <span>E</span>
+                <span>R</span>
+            </h1>
+
+        </div>
+
+    </section>
+
+    <section class="subscribe" id="subscribe">
+    <div class="vertical-center container">
+
+        <h2>SEE MORE THINGS LIKE THIS FROM ME</h2>
+        <br>
+        <h4><span style="opacity: 0.66;font-size: 1.7rem">To see all my work and experiences, check out my</span>
+            <a style="opacity:1;font-size: 1.7rem;color: white" href="#" target="_blank">GitHub</a>,
+            <a href="#" style="color:white;font-size: 1.7rem;" target="_blank">LinkedIn</a>,
+            <span style="opacity: 0.66;font-size: 1.7rem">or </span>
+            <a style="color:white;font-size: 1.7rem;" href="#" target="_blank">Resume</a>
+        </h4>
+    </div>
+    </section>
+
+]{% endblock %}
