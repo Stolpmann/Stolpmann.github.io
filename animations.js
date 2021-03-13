@@ -726,7 +726,7 @@ var _gsScope = "undefined" != typeof module && module.exports && "undefined" != 
             u = window.innerWidth, c = window.innerHeight, g = {
                 x: u / 2,
                 y: c / 2
-            }, p = document.getElementById("large-header"), p.style.height = c + "px", f = document.getElementById("demo-canvas"), f.width = u, f.height = c, m = f.getContext("2d"), d = [];
+            }, p = document.getElementById("intro"), p.style.height = c + "px", f = document.getElementById("container1"), f.width = u, f.height = c, m = f.getContext("2d"), d = [];
             for (var t = 0; u > t; t += u / 20)
                 for (var e = 0; c > e; e += c / 20) {
                     var i = t + Math.random() * u / 20,
