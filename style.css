@@ -4,7 +4,12 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #DCECFE;
-    background: -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, -webkit-linear-gradient(-390deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
+    background: -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05))
+      repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05))
+      repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05))
+      repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05))
+      repeat-y, -webkit-linear-gradient(-450deg, transparent, rgba(0, 0, 0, 0.05))
+      repeat-y, -webkit-linear-gradient(-390deg, #DCECFE 0%, #F5E1EE 100%) no-repeat;
     background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.05)) repeat-y, linear-gradient(120deg, #5299D3 0%, #0B5563 100%) no-repeat;
     background-position: 10%, 30%, 50%, 70%, 90%, 0;
     background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto;
@@ -26,6 +31,8 @@ html, body {
     transform: translateY(-50%);
 }
 
+/* INTRO STYLE */
+
 .intro {
     width: 100%;
     height: 100%;
@@ -37,7 +44,141 @@ html, body {
     font-weight: 800;
     font-size: 7.25em;
     line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
 }
+
+.intro h1:nth-child(2) {
+    color: #313131;
+}
+
+/*"EVAN" text colour*/
+.intro h1:nth-child(2) span {
+    text-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.25);
+}
+
+.intro span {
+    position: relative;
+    display: inline-block;
+    width: 0.85em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* biography STYLE */
+
+.biography {
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF; /*Biography text colour*/
+}
+
+.biography h1 {
+    font-family: proxima-nova,sans-serif;
+    font-weight: 800;
+    font-size: 7.25em;
+    line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+.biography h1:nth-child(2) {
+    color: #313131;
+}
+
+/*"EVAN" text colour*/
+.biography h1:nth-child(2) span {
+    text-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.25);
+}
+
+.biography span {
+    position: relative;
+    width: 0.85em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 2em;
+
+}
+
+.biography p {
+    font-family: proxima-nova,sans-serif;
+    position: relative;
+    text-align: left;
+    letter-spacing: 0em;
+    padding-top: 1em;
+    color: #d4d4d4;
+    font-size: 1.5em;
+
+}
+
+.profile img {
+  width:75px;
+  height:75px;
+  vertical-align: middle;
+  shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.25);
+}
+
+/* PROJECTS STYLE */
+
+.projects {
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF; /*intro text colour*/
+}
+
+.projects h1 {
+    font-family: proxima-nova,sans-serif;
+    font-weight: 800;
+    font-size: 5.25em;
+    line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.projects span {
+    position: relative;
+    display: inline-block;
+    width: 0.85em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projectnav li {
+  display: inline;
+  font-size: 1.55em;
+  letter-spacing: 0.1em;
+  padding-right: 1.1em;
+  text-transform: uppercase;
+
+}
+
+.projectnav li:hover {
+  color: black;
+}
+
+.active {
+  color: #FFFFFF;
+}
+
+.display h1 {
+  font-size: 0;
+  font-weight: 800;
+}
+
+.jumbotron {
+  background-image: url('/Users/Evan/Desktop/github/Stolpmann.github.io/Assets/Screen Shot 2021-03-23 at 3.56.14 PM.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.project-container {
+  margin: 25em,25em,25em,25em,;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* SUBSCRIBE BAR STYLE */
 
 .subscribe {
     margin-top: 50px;
@@ -52,10 +193,9 @@ html, body {
     line-height: 1.33;
     text-align: center;
     color: #FFFFFF;
-
 }
 
-
+/* KEY FRAMES & @media screen fitting */
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -105,24 +245,6 @@ html, body {
     .intro h1 {
         font-size: 4.5em;
     }
-}
-
-
-.intro h1:nth-child(2) {
-    color: #313131;
-}
-
-/*"ian" text colour*/
-.intro h1:nth-child(2) span {
-    text-shadow: 0 0.25em 0.75em rgba(0, 0, 0, 0.25);
-}
-
-.intro span {
-    position: relative;
-    display: inline-block;
-    width: 0.85em;
-    text-transform: uppercase;
-    text-align: center;
 }
 
 @media screen and (max-width: 61.625em) {
@@ -183,3 +305,5 @@ html {
         font-size: 60%;
     }
 }
+
+/*  projectlist */
