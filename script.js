@@ -23,16 +23,3 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
-
-var project1 = document.getElementById("theproletariattimes");
-
-var project2 = document.getElementById("thusspake");
-
-function all() {
-  var project1 = document.getElementById("theproletariattimes");
-  if (project1.style.display === "none") {
-    project1.style.display = "block";
-  } else {
-    project1.style.display = "none";
-  }
-}
