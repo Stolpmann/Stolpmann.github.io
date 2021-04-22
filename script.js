@@ -1,7 +1,11 @@
 // is a comment
 
 /*
+document.getElementById("filter-Frontend").onclick = function() {myFunction()};
 
+function myFunction() {
+  document.getElementById("filter-Frontend").style.color = "white";
+}
 */
 
 /* Project NAVIGATION BAR */
