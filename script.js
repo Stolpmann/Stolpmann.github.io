@@ -24,7 +24,7 @@ var x = document.getElementById("Project1");
 var y = document.getElementById("Project2");
 
 
-function myFunction() {
+function myFunction1() {
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -32,7 +32,7 @@ function myFunction() {
   }
 }
 
-function myFunction() {
+function myFunction2() {
   if (y.style.display === "none") {
     y.style.display = "block";
   } else {
