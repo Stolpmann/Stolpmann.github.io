@@ -19,12 +19,23 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+var x = document.getElementById("Project1");
+
+var y = document.getElementById("Project2");
+
 
 function myFunction() {
-  var x = document.getElementById("Project1");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
+  }
+}
+
+function myFunction() {
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
   }
 }
