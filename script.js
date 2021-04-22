@@ -29,7 +29,7 @@ var project2 = document.getElementById("thusspake");
 
 function all() {
   var project1 = document.getElementById("theproletariattimes");
-  if (prjoect1.style.display === "none") {
+  if (project1.style.display === "none") {
     project1.style.display = "block";
   } else {
     project1.style.display = "none";
