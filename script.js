@@ -1,11 +1,7 @@
 // is a comment
 
 /*
-document.getElementById("filter-Frontend").onclick = function() {myFunction()};
 
-function myFunction() {
-  document.getElementById("filter-Frontend").style.color = "white";
-}
 */
 
 /* Project NAVIGATION BAR */
@@ -24,7 +20,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 function myFunction() {
-  var x = document.getElementById("Project1");
+  var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
