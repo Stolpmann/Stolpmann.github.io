@@ -20,19 +20,30 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 var x = document.getElementById("Project1");
-
 var y = document.getElementById("Project2");
 
 
-function myFunction1() {
+function projectall() {
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
+
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
 }
 
-function myFunction2() {
+function projectWebDev() {
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+
   if (y.style.display === "none") {
     y.style.display = "block";
   } else {
