@@ -169,6 +169,7 @@ html, body {
 }
 
 .jumbotron {
+  padding-top: 50em;
   background-image: url("Stolpmann.github.io/Assets/ProletariatPic.png");
   background-repeat: no-repeat;
   background-size: cover;
