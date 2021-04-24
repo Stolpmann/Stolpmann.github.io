@@ -324,3 +324,7 @@ html {
 }
 
 /*  Experience */
+
+.timeline-event-copy p, h2, h3:hover {
+  color: black;
+}
