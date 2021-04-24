@@ -283,11 +283,7 @@ html {
     font: 800 normal 100%/1.4 "proxima-nova", "brandon-grotesque", sans-serif;
 }
 
-@media screen and (max-width: 100em) {
-    html {
-        font-size: 90%;
-    }
-}
+
 
 @media screen and (max-width: 87.5em) {
     html {
