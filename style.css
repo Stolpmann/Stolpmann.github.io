@@ -181,6 +181,7 @@ html, body {
 /* SUBSCRIBE BAR STYLE */
 
 .subscribe {
+    padding-top: 150px;
     margin-top: 150px;
     background-color: #313131;
     height: 200px;
