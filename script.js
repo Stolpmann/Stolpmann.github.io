@@ -19,11 +19,20 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+
 var x = document.getElementById("Project1");
 var y = document.getElementById("Project2");
 
 
-function projectall() {
+/* Project Buttons */
+
+/*
+function projectall()
+
+function projectWebDev()
+*/
+
+function projectfin() {
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -37,7 +46,7 @@ function projectall() {
   }
 }
 
-function projectWebDev() {
+function projectdata() {
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
