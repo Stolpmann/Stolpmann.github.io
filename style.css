@@ -212,6 +212,9 @@ html, body {
     color: #FFFFFF;
 }
 
+/*  Experience */
+
+
 /* KEY FRAMES & @media screen fitting */
 
 @keyframes fadein {
@@ -321,10 +324,4 @@ html {
     html {
         font-size: 60%;
     }
-}
-
-/*  Experience */
-
-.timeline-event-copy p, h2, h3:hover {
-  color: black;
 }
