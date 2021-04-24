@@ -122,8 +122,10 @@ html, body {
 /* PROJECTS STYLE */
 
 .projects {
-    width: 80%;
-    height: 80%;
+    padding-top: 50em;
+    padding-bottom: 50em;
+    width: 100%;
+    height: 100%;
     color: #FFFFFF; /*intro text colour*/
 }
 
