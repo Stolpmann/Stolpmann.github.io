@@ -212,13 +212,13 @@ html, body {
     color: #FFFFFF;
 }
 
-.projectnav figure {
+.projects figure {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.projectnav figure:hover {
+.projects figure:hover {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
