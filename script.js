@@ -18,3 +18,7 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+var DW = document.getElementById(DW);
+
+var MAPS = document.getElementById(MAPS);
