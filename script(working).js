@@ -11,6 +11,8 @@ function myFunction() {
 /* Project NAVIGATION BAR */
 
 // Add active class to the current button (highlight it)
+/*
+
 var header = document.getElementById("projectnav");
 var btns = header.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
@@ -22,3 +24,5 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+*/
