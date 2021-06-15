@@ -1,7 +1,7 @@
 // is a comment
 
 /*
-
+is a multi-line comment
 */
 
 /* Project NAVIGATION BAR */
@@ -19,18 +19,22 @@ var btns = header.getElementsByClassName("btn");
     });
   }
 
-  
+// create an active variable for each project section
+  var allproj = btns[0];
+  var webdevproj = btns[1];
+  var finproj = btns[2];
+  var dataproj = btns[3];
 
-var allproj = btns[0];
-var webdevproj = btns[1];
-var finproj = btns[2];
-var dataproj = btns[3];
 
+// individual Projects variables
+var dw = document.getElementById("dw");
+var maps = document.getElementById("maps");
 
-if (allproj.className == "btn active") {
-  console.log("active")
-}
+// initial display style for projects
+dw.style.display = "block";
+maps.style.display = "block";
 
+// function for displaying all projects
 function projectall() {
 
   var dw = document.getElementById("dw");
@@ -50,6 +54,7 @@ function projectall() {
 
 }
 
+// function for displaying all Web Dev projects
 function projectWebDev() {
   var dw = document.getElementById("dw");
   var maps = document.getElementById("maps");
@@ -67,6 +72,7 @@ function projectWebDev() {
     }
 }
 
+// function for displaying all Finance projects
 function projectfin() {
 
   var dw = document.getElementById("dw");
@@ -85,6 +91,8 @@ function projectfin() {
     }
 
 }
+
+// function for displaying all Data Science Projects
 function projectdata() {
 
   var dw = document.getElementById("dw");
@@ -101,5 +109,4 @@ function projectdata() {
     } else if (maps.style.display === "block") {
       maps.style.display = "none";
     }
-
 }
