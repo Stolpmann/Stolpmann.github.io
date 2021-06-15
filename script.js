@@ -5,7 +5,10 @@
 */
 
 /* Project NAVIGATION BAR */
-
+var allproj = document.getElementById("filter-all").className;
+var webdevproj = document.getElementById("filter-webdevelopment").className;
+var finproj = document.getElementById("filter-finance").className;
+var dataproj = document.getElementById("filter-datascience").className;
 
 // Add active class to the current button (highlight it)
 var header = document.getElementById("projectnav");
@@ -19,6 +22,3 @@ var btns = header.getElementsByClassName("btn");
     this.className += " active";
     });
   }
-
-var allprojects = document.getElementById("filter-all").className;
-console.log(allprojects);
