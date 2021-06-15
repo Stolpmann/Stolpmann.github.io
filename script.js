@@ -6,6 +6,7 @@
 
 /* Project NAVIGATION BAR */
 
+
 // Add active class to the current button (highlight it)
 var header = document.getElementById("projectnav");
 var btns = header.getElementsByClassName("btn");
@@ -19,6 +20,5 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-var DW = document.getElementById(DW);
-
-var MAPS = document.getElementById(MAPS);
+var all = document.getElementById("filter-all").className;
+console.log(all);
