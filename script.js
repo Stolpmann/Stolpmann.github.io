@@ -46,6 +46,7 @@ function projectall() {
       dw.style.display = "block";
     }
 
+
   if (allproj.className == "btn active") {
       maps.style.display = "block";
     } else if (maps.style.display === "none") {
