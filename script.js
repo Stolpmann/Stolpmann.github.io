@@ -29,16 +29,23 @@ var btns = header.getElementsByClassName("btn");
 // individual Projects variables
 var dw = document.getElementById("dw");
 var maps = document.getElementById("maps");
+var wc = document.getElementById("word_cloud");
+var ap = document.getElementById("ap");
+
 
 // initial display style for projects
 dw.style.display = "block";
 maps.style.display = "block";
+wc.style.display = "block";
+ap.style.display = "block";
 
 // function for displaying all projects
 function projectall() {
 
   var dw = document.getElementById("dw");
   var maps = document.getElementById("maps");
+  var wc = document.getElementById("word_cloud");
+  var ap = document.getElementById("ap");
 
   if (allproj.className == "btn active") {
       dw.style.display = "block";
@@ -46,11 +53,22 @@ function projectall() {
       dw.style.display = "block";
     }
 
-
   if (allproj.className == "btn active") {
       maps.style.display = "block";
     } else if (maps.style.display === "none") {
       maps.style.display = "block";
+    }
+
+  if (allproj.className == "btn active") {
+      wc.style.display = "block";
+    } else if (wc.style.display === "none") {
+      wc.style.display = "block";
+    }
+
+  if (allproj.className == "btn active") {
+      ap.style.display = "block";
+    } else if (ap.style.display === "none") {
+      ap.style.display = "block";
     }
 
 }
@@ -59,6 +77,8 @@ function projectall() {
 function projectWebDev() {
   var dw = document.getElementById("dw");
   var maps = document.getElementById("maps");
+  var wc = document.getElementById("word_cloud");
+  var ap = document.getElementById("ap");
 
   if (webdevproj.className == "btn active") {
       dw.style.display = "block";
@@ -71,6 +91,18 @@ function projectWebDev() {
     } else if (maps.style.display === "none") {
       maps.style.display = "block";
     }
+
+  if (webdevproj.className == "btn active") {
+      wc.style.display = "none";
+    } else if (wc.style.display === "block") {
+      wc.style.display = "none";
+    }
+
+  if (webdevproj.className == "btn active") {
+      ap.style.display = "none";
+    } else if (ap.style.display === "block") {
+      ap.style.display = "none";
+    }
 }
 
 // function for displaying all Finance projects
@@ -78,6 +110,9 @@ function projectfin() {
 
   var dw = document.getElementById("dw");
   var maps = document.getElementById("maps");
+  var wc = document.getElementById("word_cloud");
+  var ap = document.getElementById("ap");
+
 
   if (finproj.className == "btn active") {
       dw.style.display = "none";
@@ -89,6 +124,18 @@ function projectfin() {
       maps.style.display = "none";
     } else if (maps.style.display === "block") {
       maps.style.display = "none";
+    }
+
+  if (finproj.className == "btn active") {
+      wc.style.display = "none";
+    } else if (wc.style.display === "block") {
+      wc.style.display = "none";
+    }
+
+  if (finproj.className == "btn active") {
+      ap.style.display = "none";
+    } else if (ap.style.display === "block") {
+      ap.style.display = "none";
     }
 
 }
@@ -98,6 +145,8 @@ function projectdata() {
 
   var dw = document.getElementById("dw");
   var maps = document.getElementById("maps");
+  var wc = document.getElementById("word_cloud");
+  var ap = document.getElementById("ap");
 
   if (dataproj.className == "btn active") {
       dw.style.display = "none";
@@ -110,4 +159,18 @@ function projectdata() {
     } else if (maps.style.display === "block") {
       maps.style.display = "none";
     }
+
+  if (dataproj.className == "btn active") {
+      wc.style.display = "block";
+    } else if (wc.style.display === "none") {
+      wc.style.display = "block";
+    }
+
+  if (dataproj.className == "btn active") {
+      ap.style.display = "block";
+    } else if (ap.style.display === "none") {
+      ap.style.display = "block";
+    }
+
 }
+
