@@ -1,12 +1,8 @@
-@media (min-width: 768px) {
-    .container-small {
-        width: 300px;
-    }
-    .container-large {
-        width: 970px;
-    }
-}
 @media (min-width: 992px) {
+    .jumbotron {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     .container-small {
         width: 500px;
     }
@@ -15,6 +11,10 @@
     }
 }
 @media (min-width: 1200px) {
+    .jumbotron {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
     .container-small {
         width: 700px;
     }
@@ -26,3 +26,4 @@
 .container-small, .container-large {
     max-width: 100%;
 }
+
