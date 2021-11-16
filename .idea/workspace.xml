@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c418603-beb3-4ad1-8f78-ca384956ec54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Bookcovers/Human Action_PB_2009_bookstore.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/booklist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index_new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_new.css" beforeDir="false" afterPath="$PROJECT_DIR$/style_new.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Bookcovers/HumanAction_PB_2009_bookstore.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HumanAction_PB_2009_bookstore.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booklist.html" beforeDir="false" afterPath="$PROJECT_DIR$/booklist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +43,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
-                  <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+                  <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#figure#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -58,7 +55,7 @@
             <entry file="file://$PROJECT_DIR$/Index_new.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="347">
-                  <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+                  <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -127,7 +124,7 @@
             <entry file="file://$PROJECT_DIR$/auto_publisher.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="492">
-                  <caret line="84" column="15" lean-forward="true" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+                  <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -184,12 +181,6 @@
               <item name="Stolpmann.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="Assets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Stolpmann.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Stolpmann.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Assets" type="462c0819:PsiDirectoryNode" />
-              <item name="Bookcovers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -212,8 +203,8 @@
       <recent name="$PROJECT_DIR$/Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Assets/Bookcovers" />
       <recent name="$PROJECT_DIR$/Assets" />
+      <recent name="$PROJECT_DIR$/Assets/Bookcovers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,12 +233,12 @@
       <workItem from="1630800038143" duration="232000" />
       <workItem from="1630800480433" duration="85000" />
       <workItem from="1631301681686" duration="1562000" />
-      <workItem from="1637009465556" duration="8905000" />
+      <workItem from="1637009465556" duration="9019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16890000" />
+    <option name="totallyTimeSpent" value="17004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1868" height="1005" extended-state="0" />
@@ -373,7 +364,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="73" lean-forward="true" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#div#0;n#figure#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -383,7 +374,7 @@
     <entry file="file://$PROJECT_DIR$/Index_new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
-          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
