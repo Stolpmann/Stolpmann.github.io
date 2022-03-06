@@ -1,22 +1,3 @@
-@media (min-width: 992px) {
-
-    .container-small {
-        width: 600px;
-    }
-    .container-large {
-        width: 1170px;
-    }
-}
-@media (min-width: 1200px) {
-
-    .container-small {
-        width: 800px;
-    }
-    .container-large {
-        width: 1500px;
-    }
-}
-
 .container-small, .container-large {
     max-width: 100%;
 }
@@ -24,3 +5,4 @@
 body {
     background-color: #FFFFFF;
 }
+
