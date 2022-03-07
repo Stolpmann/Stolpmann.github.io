@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c418603-beb3-4ad1-8f78-ca384956ec54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/1556048018016.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/220px-HumanActionFirst.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/60971a189537f2f56f805adc_29995747_10160308736415014_1835886925_o-p-130x130q80.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/71Ut4S3AU+L.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DigitalWisdompic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HumanAction_PB_2009_bookstore.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Screen Shot 2021-09-04 at 7.52.11 PM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Trending Social Post r:CC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Vw1Q79eV.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/giphy(1).gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/giphy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/the-divine-comedy-136.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_new.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_publisher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/booklist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index(working).html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsletter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script(working).js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style(working).css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style_new.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word_cloud.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -197,12 +172,12 @@
       <workItem from="1637086446816" duration="5129000" />
       <workItem from="1637167387094" duration="1786000" />
       <workItem from="1646597193612" duration="5654000" />
-      <workItem from="1646670207895" duration="2389000" />
+      <workItem from="1646670207895" duration="2482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35554000" />
+    <option name="totallyTimeSpent" value="35647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1005" extended-state="0" />
@@ -401,8 +376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
