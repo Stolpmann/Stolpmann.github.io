@@ -18,20 +18,48 @@
         display: none
     }
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: none;
+  position: fixed;
+  bottom:0px;
+  margin-bottom: -1em;
+}
+
+.button5:hover {
+  background-color: #000000;
+  color: white;
+}
+
+
 </style>
 
 <body>
 
+
+
 <div class="row">
   <div class="col-sm-3">
     <ul style="padding-left: 1em; padding-top: 2em; position: fixed;" class="list-unstyled">
-        <li><a href=""><h5 style="color: #313131;padding-bottom: 1em; ">Evan Stolpmann</h5></a></li>
-        <li><a href="#Projects"><h6 style="color: #646464">Projects</h6></a></li>
-        <li><a href="#Work"><h6 style="color: #646464">Work Experience</h6></a></li>
-        <li><a href="#Writing"><h6 style="color: #646464">Writing</h6></a></li>
-        <li><a href="#Booklist"><h6 style="color: #646464">Book List</h6></a></li>
-        <li><a href="#Contact"><h6 style="color: #646464">Contact</h6></a></li>
+        <li><a href=""><h5 id="nav" style="color: #646464;padding-bottom: 1em; ">Evan Stolpmann</h5></a></li>
+        <li><a href="#Projects"><h6 id="nav" style="color: #646464">Projects</h6></a></li>
+        <li><a href="#Work"><h6 id="nav" style="color: #646464">Work Experience</h6></a></li>
+        <li><a href="#Writing"><h6 id="nav" style="color: #646464">Writing</h6></a></li>
+        <li><a href="#Booklist"><h6 id="nav" style="color: #646464">Book List</h6></a></li>
+        <li><a href="#Contact"><h6 id="nav" style="color: #646464">Contact</h6></a></li>
     </ul>
+    <div>
+
+    <button class="button button5" onclick="myFunction() "><p id="demo">Dark</p></button>
+
+    </div>
   </div>
   <div class="col-sm-9" style="padding: 2em 2em 2em 2em">
 
