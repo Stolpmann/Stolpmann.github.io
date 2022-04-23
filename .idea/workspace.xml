@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c418603-beb3-4ad1-8f78-ca384956ec54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/books/the_republic.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/the_republic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/books/the_undiscovered_self.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/the_undiscovered_self.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/nature.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/nature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+            <state relative-caret-position="309">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/books/nature.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="93" column="85" lean-forward="true" selection-start-line="93" selection-start-column="85" selection-end-line="93" selection-end-column="85" />
+            <state relative-caret-position="885">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -101,10 +100,10 @@
         <option value="$PROJECT_DIR$/writing/template.html" />
         <option value="$PROJECT_DIR$/articles.html" />
         <option value="$PROJECT_DIR$/books/sculpting_in_time.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/books/the_republic.html" />
         <option value="$PROJECT_DIR$/books/the_undiscovered_self.html" />
         <option value="$PROJECT_DIR$/books/nature.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -220,12 +219,12 @@
       <workItem from="1650240887520" duration="29000" />
       <workItem from="1650241087960" duration="2010000" />
       <workItem from="1650243953624" duration="712000" />
-      <workItem from="1650724725481" duration="4804000" />
+      <workItem from="1650724725481" duration="5139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54052000" />
+    <option name="totallyTimeSpent" value="54387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="955" y="23" width="1012" height="1057" extended-state="0" />
@@ -380,17 +379,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/books/nature.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+        <state relative-caret-position="885">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books/nature.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="93" column="85" lean-forward="true" selection-start-line="93" selection-start-column="85" selection-end-line="93" selection-end-column="85" />
+        <state relative-caret-position="309">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
