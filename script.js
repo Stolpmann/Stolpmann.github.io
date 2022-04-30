@@ -17,3 +17,27 @@ function myFunction() {
 
 
 }
+
+
+window.onload = function() {
+ dropdown1();
+ dropdown2();
+}
+
+function dropdown2() {
+  var x = document.getElementById("2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function dropdown1() {
+  var x = document.getElementById("1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

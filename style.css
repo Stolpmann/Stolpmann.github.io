@@ -7,3 +7,14 @@ body {
 }
 
 
+button, button:focus{
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+button:active{
+  outline: none;
+  background: transparent;
+  border: none;
+}
