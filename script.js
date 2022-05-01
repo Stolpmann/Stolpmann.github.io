@@ -22,6 +22,16 @@ function myFunction() {
 window.onload = function() {
  dropdown1();
  dropdown2();
+ dropdown3();
+}
+
+function dropdown1() {
+  var x = document.getElementById("1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
 
 function dropdown2() {
@@ -33,8 +43,8 @@ function dropdown2() {
   }
 }
 
-function dropdown1() {
-  var x = document.getElementById("1");
+function dropdown3() {
+  var x = document.getElementById("3");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
