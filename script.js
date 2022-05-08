@@ -20,9 +20,10 @@ function myFunction() {
 
 
 window.onload = function() {
- dropdown1();
- dropdown2();
- dropdown3();
+    dropdown1();
+    dropdown2();
+    dropdown3();
+    dropdown4();
 }
 
 function dropdown1() {
@@ -45,6 +46,15 @@ function dropdown2() {
 
 function dropdown3() {
   var x = document.getElementById("3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function dropdown4() {
+  var x = document.getElementById("4");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
