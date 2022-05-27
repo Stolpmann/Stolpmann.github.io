@@ -24,6 +24,8 @@ window.onload = function() {
     dropdown2();
     dropdown3();
     dropdown4();
+    dropdown5();
+    dropdown6();
 }
 
 function dropdown1() {
@@ -55,6 +57,22 @@ function dropdown3() {
 
 function dropdown4() {
   var x = document.getElementById("4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function dropdown5() {
+  var x = document.getElementById("5");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function dropdown6() {
+  var x = document.getElementById("6");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
