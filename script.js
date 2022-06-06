@@ -27,6 +27,8 @@ window.onload = function() {
     dropdown5();
     dropdown6();
     dropdown7();
+    dropdown7();
+
 
 }
 
@@ -82,6 +84,14 @@ function dropdown6() {
   }
 }
 function dropdown7() {
+  var x = document.getElementById("7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function dropdown8() {
   var x = document.getElementById("7");
   if (x.style.display === "none") {
     x.style.display = "block";
