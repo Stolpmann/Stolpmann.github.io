@@ -1,9 +1,177 @@
-.container-small, .container-large {
-    max-width: 100%;
+html {
+    font-size: 100%;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #FFFFFF;
+  background-color: #15202b !important;
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
 }
 
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 
+.navbar.navbar-expand-lg{
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%;
+  top: 0; /* Position the navbar at the top of the page */
+  z-index: 100;
+  background-color: #111;
+}
+
+.navbar-nav li a{
+    color: white;
+}
+
+.navbar.navbar-expand-lg .navbar-brand {
+    color: Orange;
+}
+
+.navbar-nav li a:hover{
+    color: Orange;
+}
+
+.link {
+  color: orange;
+}
+
+.intro {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+
+.card-body {
+  background-color: #15202b;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white !important;
+}
+
+.card-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: white;
+}
+
+.card {
+  border: none;
+}
+
+hr {
+  color: white !important;
+}
+
+.btn {
+  background-color: Orange !important;
+}
+
+.blog-title {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: white !important;
+  padding-top: 3em;
+}
+
+.blog-links {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: Orange !important;
+  padding-bottom: 100px;
+}
+
+.blog-text {
+  font-family: 'comerant', serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: white !important;
+}
+
+.blog-sub-title {
+  font-family: 'comerant', serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: orange !important;
+}
+
+.blog-quote {
+  font-family: 'comerant', serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: orange !important;
+  font-style: italic;
+}
+
+.blog-image {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 620px;
+}
+
+.blog-image-text {
+  font-family: 'comerant', serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: Gray !important;
+}
+
+.blog-video {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 620px;
+  height: 450px;
+}
+
+.blog-footer {
+  font-family: 'Inter', serif;
+  font-weight: 300;
+  font-size: 25px;
+  color: white !important;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.blog-footer-links {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: Orange !important;
+  padding-bottom: 100px;
+  display: block;
+  text-align: center;
+}
+
+.qr-image {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btc-address {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: Orange;
+    display: block;
+    justify-content: center;
+}
+
+#footer {
+  left: 0;
+  bottom: 0%;
+  background-color: #111;
+  color: white;
+}
