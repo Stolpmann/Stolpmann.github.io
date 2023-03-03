@@ -45,6 +45,10 @@ body {
     color: white;
 }
 
+.container {
+  padding-top: 100px;
+}
+
 .card-body {
   background-color: #15202b;
 }
